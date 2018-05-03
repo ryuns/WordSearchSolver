@@ -3,8 +3,8 @@
 
 int main(int, char **) {
 
-	Timer timer = Timer();
-	WordSearch search = WordSearch();
+	Timer timer;
+	WordSearch search;
 
 	timer.Start();
 	search.ReadDictionary();
